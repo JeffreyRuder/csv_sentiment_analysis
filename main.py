@@ -25,7 +25,7 @@ def analyze_text(file):
                 print('Analyzed as neutral with a probability of ' +
                       str(output['probability']['neutral']))
             print()
-        csvfile.close
+        csvfile.close()
 
 def main():
     input_file = input("Enter a .csv file path for input: ")
