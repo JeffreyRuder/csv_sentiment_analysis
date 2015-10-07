@@ -27,8 +27,10 @@ Bear in mind that the sentiment analysis uses classifiers trained on Tweets and
 movie reviews. Your results will be most accurate if your data is similar.
 Blocks of text must be 80,000 characters or less.
 
-# Planned Improvements
+# Future Improvements
 
+* Validation of file formatting
+* Check status of response to POST request and create error messages
 * Write output to the .csv file or a separate file
 * Write detailed output, including all probabilities
 
